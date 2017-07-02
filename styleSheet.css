@@ -4,7 +4,7 @@ body {
     color: #404040;
     font-family: Helvetica,Arial,sans-serif;
     font-family: "Times New Roman", Times, serif;
-    font-family: Bodoni, serif;
+    font-family: Garamond, serif;
     font-size: 20px;
     alink: #000000;
     link: #000000;
@@ -31,7 +31,7 @@ table.body {
     cellpadding: 5px;
     cellspacing: 2px;
     margin-top: 40px;
-    font-size: 18px;
+    font-size: .9em;
     color: #404040;
 }
 
