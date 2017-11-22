@@ -73,10 +73,43 @@ h2 {
     font-family: Futura, sans-serif;
 }
 
+nameTD {
+    width: 70%;
+    vertical-align: bottom;
+}
+
 .myName {
-    font-size:4.5em;
+    font-size:4em;
     vertical-align: bottom;
     line-height:0.95;
     font-weight: 100;
     font-family: Futura, sans-serif;
+}
+
+@media only screen and (max-width: 898px) {
+    .myName {
+        font-size:3em;
+        horizontal-align: center;
+    }
+}
+
+@media only screen and (max-width: 666px) {
+    .myName {
+        font-size:2.5em;
+        text-align: center;
+    }
+    table.menuBar tr > *{
+        display: block;
+    }
+    table.menuBar tr {
+        display: table-cell;
+    }
+    .extra {
+        display: none;
+    }
+    table.nameHeader {
+        width: 100%;
+        horizontal-align: center;
+        text-align: center;
+    }
 }

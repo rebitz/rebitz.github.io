@@ -3,6 +3,7 @@
     <head>
         <meta content="text/html; charset=ISO-8859-1"
             http-equiv="Content-Type">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
             <title>Becket Ebitz: Code</title>
         <link rel="stylesheet" type="text/css" href="styleSheet.css">
         <script>
@@ -25,7 +26,7 @@
                         <span class="myName">
                             R. Becket Ebitz</span>
                     </td>
-                    <td style="vertical-align: bottom;">
+                    <td class="extra" style="vertical-align: bottom;">
                             <p align="right">Research Associate
                             <br>University of Rochester
                             <br><a href="mailto:rebitz@gmail.com">rebitz at gmail dot com</a>
@@ -63,13 +64,14 @@
                         <p>I keep all of my experiment scripts and training procedures on <a href="https://github.com/rebitz">github</a>.</p>
                         <br>
                         <p><h2>Matlab utilities:</h2></p>
+                        <p><a href="discreteExpMix.m">discreteExpMix.m</a> - fit a mixture of any number of discrete exponential distributions to inter-event data via EM</p>
                         <p><a href="HolmBonferroni.m">HolmBonferroni.m</a> - implements a <a href="http://en.wikipedia.org/wiki/Holm%E2%80%93Bonferroni_method">Holm-Bonferroni</a> correction on a vector of p-values
                             </p>
                         <p><a href="olsline.m">olsline.m</a> - total (orthogonal) least squares version of matlab's lsline (because sometimes there's error in all your variables)
                             </p>
                         <p><a href="renameFiles.m">renameFiles.m</a> - replaces an offending string with a more palateable string everywhere it appears in file names within a folder
                             </p>
-                        <p><a href="wienerFilter">wienerFilter.m</a> - a finite impulse response <a href="https://en.wikipedia.org/wiki/Wiener_filter">Wiener filter</a> - useful for understanding how the state of some time series predicts the occurance of a binary event, controlling for autocorrelations in the time series
+                        <p><a href="wienerFilter.m">wienerFilter.m</a> - a finite impulse response <a href="https://en.wikipedia.org/wiki/Wiener_filter">Wiener filter</a> - useful for understanding how the state of some time series predicts the occurance of a binary event, controlling for autocorrelations in the time series
                         <p><a href="ztest2.m">ztest2.m</a> - a two sample proportion test</p>
                         <br><p><em>Feel free to share and adapt any of this, just let me know if you run into any problems.</em></p>
                         </td>
