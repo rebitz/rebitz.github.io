@@ -1,0 +1,119 @@
+body {
+    line-height: 1.4em;
+    background-color: white;
+    color: #404040;
+    font-family: Helvetica,Arial,sans-serif;
+    font-family: "Times New Roman", Times, serif;
+    font-family: Garamond, serif;
+    font-size: 20px;
+    alink: #000000;
+    link: #000000;
+    vlink: #000000;
+}
+
+a {
+    color: black;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    width: 80%;
+    text-align: left;
+    vertical-align: center;
+}
+
+table.body {
+    line-height: 1.4em;
+    color: #333333;
+    width: 75%;
+    cellpadding: 5px;
+    cellspacing: 2px;
+    margin-top: 40px;
+    font-size: .9em;
+    color: #404040;
+}
+
+table.nameHeader {
+    width: 80%;
+    height: 100px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    vertical-align: bottom;
+    line-height: 1.4em;
+    font-weight: 150;
+}
+
+table.menuBar {
+    width: 80%;
+    background-color: #d9d9d9;
+    height: 50px;
+    margin-bottom: 15px;
+    cellpadding: 10px;
+    cellspacing: 2px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Futura, sans-serif;
+    /*font-family: Helvetica,Arial,sans-serif;*/
+}
+
+table.footer {
+    margin-top: 25px;
+    background-color: #d9d9d9;
+    height: 20px;
+}
+
+h1 {
+    line-height: 1.1;
+    font-family: Futura, sans-serif;
+    font-weight: 50;
+}
+
+h2 {
+    line-height: 1;
+    font-size: 20px;
+    display:inline;
+    font-family: Futura, sans-serif;
+}
+
+nameTD {
+    width: 50%;
+    vertical-align: bottom;
+}
+
+.myName {
+    font-size:5em;
+    vertical-align: bottom;
+    line-height: 0.90;
+    font-weight: 100;
+    font-family: Futura, sans-serif;
+}
+
+@media only screen and (max-width: 898px) {
+    .myName {
+        font-size:4em;
+        horizontal-align: center;
+    }
+}
+
+@media only screen and (max-width: 666px) {
+    .myName {
+        font-size:4em;
+        text-align: center;
+    }
+    table.menuBar tr > *{
+        display: block;
+    }
+    table.menuBar tr {
+        display: table-cell;
+    }
+    .extra {
+        display: none;
+    }
+    table.nameHeader {
+        width: 100%;
+        horizontal-align: center;
+        text-align: center;
+    }
+}
