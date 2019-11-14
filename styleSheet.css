@@ -42,6 +42,7 @@ table.nameHeader {
     margin-bottom: 15px;
     vertical-align: bottom;
     line-height: 1.4em;
+    font-weight: 150;
 }
 
 table.menuBar {
@@ -53,6 +54,8 @@ table.menuBar {
     cellspacing: 2px;
     text-align: center;
     vertical-align: middle;
+    font-family: Futura, sans-serif;
+    /*font-family: Helvetica,Arial,sans-serif;*/
 }
 
 table.footer {
@@ -64,6 +67,7 @@ table.footer {
 h1 {
     line-height: 1.1;
     font-family: Futura, sans-serif;
+    font-weight: 50;
 }
 
 h2 {
@@ -74,28 +78,28 @@ h2 {
 }
 
 nameTD {
-    width: 70%;
+    width: 50%;
     vertical-align: bottom;
 }
 
 .myName {
-    font-size:4em;
+    font-size:5em;
     vertical-align: bottom;
-    line-height:0.95;
+    line-height: 0.90;
     font-weight: 100;
     font-family: Futura, sans-serif;
 }
 
 @media only screen and (max-width: 898px) {
     .myName {
-        font-size:3em;
+        font-size:4em;
         horizontal-align: center;
     }
 }
 
 @media only screen and (max-width: 666px) {
     .myName {
-        font-size:2.5em;
+        font-size:4em;
         text-align: center;
     }
     table.menuBar tr > *{
