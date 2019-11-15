@@ -90,6 +90,30 @@ nameTD {
     font-family: Futura, sans-serif;
 }
 
+.flex-container {
+    padding:0;
+    margin:0;
+    list-style: none;
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item {
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
 @media only screen and (max-width: 898px) {
     .myName {
         font-size:4em;
@@ -117,3 +141,4 @@ nameTD {
         text-align: center;
     }
 }
+
