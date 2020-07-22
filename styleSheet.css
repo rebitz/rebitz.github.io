@@ -108,7 +108,7 @@ nameTD {
 
 .flex-item {
     padding: 5px;
-    width: 200px;
+    width: 210px;
     height: 150px;
     margin-top: 10px;
     margin-bottom: 50px;
@@ -121,7 +121,7 @@ nameTD {
     }
 }
 
-@media only screen and (max-width: 666px) {
+@media only screen and (max-width: 750px) {
     .myName {
         font-size:4em;
         text-align: center;
