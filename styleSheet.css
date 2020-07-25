@@ -68,6 +68,7 @@ h1 {
     line-height: 1.1;
     font-family: Futura, sans-serif;
     font-weight: 50;
+    font-size: 28px;
 }
 
 h2 {
@@ -114,14 +115,13 @@ nameTD {
     margin-bottom: 50px;
 }
 
-@media only screen and (max-width: 898px) {
-    .myName {
-        font-size:4em;
-        horizontal-align: center;
+@media only screen and (max-width: 350px) {
+    .h1 {
+        font-size:12px;
     }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 650px) {
     .myName {
         font-size:4em;
         text-align: center;
