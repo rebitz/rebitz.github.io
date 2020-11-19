@@ -35,6 +35,7 @@ table.body {
     color: #404040;
 }
 
+
 table.nameHeader {
     width: 80%;
     height: 100px;
@@ -112,12 +113,18 @@ nameTD {
     width: 210px;
     height: 150px;
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 @media only screen and (max-width: 350px) {
     .h1 {
         font-size:12px;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .flex-item {
+        margin-bottom: 50px;
     }
 }
 
@@ -139,6 +146,12 @@ nameTD {
         width: 100%;
         horizontal-align: center;
         text-align: center;
+    }
+}
+
+@media only screen and (min-width: 840px) and (max-width: 1200px) {
+    .flex-container {
+        width: 575px;
     }
 }
 
