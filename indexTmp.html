@@ -21,10 +21,12 @@
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
       <script type="text/javascript">
           $().ready(function() {
-             $("#menubar").load("menubar.html");
-             $("#indexMenuItem").css({"font-weight":"bold","color":"#0033cc"});
-             console.log("reached code, point a");
-          });
+                $("#menubar").load("menubar.html", function() {
+                    $("#indexMenuItem").css({"font-weight":"bold","color":"#0033cc"});
+                });
+            });
+            $("#indexMenuItem").css({"font-weight":"bold","color":"#0033cc"});
+            console.log("reached code, point a");
       </script>
       <script>
           $("#indexMenuItem").css({"font-weight":"bold","color":"#0033cc"});
