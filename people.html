@@ -20,13 +20,15 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script type="text/javascript">
             $().ready(function() {
-                      $("#menubar").load("menubar.html");
+                      $("#menubar").load("menubar.html", function() {
+                                         $("#peopleMenuItem").css({"font-weight":"bolder"});
+                                         });
                       });
-        </script>
+            </script>
     </head>
     <body>
 
-        <div id="menubar"></div><br>
+        <div id="menubar"></div>
     
         <table class="body">
             <tbody>
