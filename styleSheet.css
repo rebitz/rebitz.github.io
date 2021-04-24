@@ -152,6 +152,20 @@ nameTD {
 @media only screen and (min-width: 840px) and (max-width: 1200px) {
     .flex-container {
         width: 575px;
+        horizontal-align: center;
     }
 }
 
+@media only screen and (min-width: 1200px) {
+    .flex-container {
+        width: 1030px;
+        horizontal-align: center;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    .flex-container {
+        width: 1530px;
+        horizontal-align: center;
+    }
+}
