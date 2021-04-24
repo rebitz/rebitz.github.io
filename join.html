@@ -17,47 +17,16 @@
          ga('send', 'pageview');
          
         </script>
-    </head>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript">
+            $().ready(function() {
+                      $("#menubar").load("menubar.html");
+                      });
+            </script>
+        </head>
     <body>
-        <table class="nameHeader">
-            <tbody>
-                <tr>
-                    <td style="vertical-align: bottom; width: 70%;">
-                            <br><br>
-                            <span class="myName">
-                                <img src="labLogo.png" width="80%;">
-                            </span>
-                            </td>
-                    <td class="extra" style="vertical-align: bottom;">
-                        <p align="right">
-                        <img src="UdeMLogo.jpg" width=90%;>
-                            <br>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
         
-        <table class="menuBar">
-            <tbody>
-                <tr>
-                  <td>
-                      <big><big><a href="index.html">news</a></big><big>
-                          </td>
-                  <td>
-                      <big><big><a href="people.html">people</a></big><big>
-                          </td>
-                  <td>
-                      <big><big><a href="papers.html">papers</a></big><big>
-                          </td>
-                  <td>
-                      <big><big><a href="research.html">problems</a></big><big>
-                          </td>
-                  <td>
-                      <big><big><a href="join.html"><strong>join us</strong></a></big><big>
-                          </td>
-                </tr>
-            </tbody>
-        </table>
+        <div id="menubar"></div><br>
 
         <table class="body">
             <tbody>
